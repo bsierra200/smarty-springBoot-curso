@@ -1,0 +1,7 @@
+Comando de GIT
+
+git pull   (Baja cambios realizados)
+git add (Agrega un cambio realizado)
+git status (Revisar status de cambios)
+git commit -m "mensaje" (prepara subida de cambio  con mensaje)
+git push (Subes a repositorio)
