@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<!--	<h1 th:text="${mensaje}"></h1> -->
+	
+	<h1>Bienvenidos a SmartyDreams</h1>
+	<h2>Oferta de trabajo</h2>
+	<h3 th:text="'Titulo: ' + ${Nombre}"></h3>
+	<h3 th:text="'Fecha: ' + ${Fecha}"></h3>
+	<h3 th:text="'Salario: ' + ${Salario}"></h3>
+	<h3 th:text="'Vigente: ' + ${Vigente}"></h3>
+	
+</body>
+</html>
