@@ -27,13 +27,13 @@ public class HomeController {
 
 	
 	
-	@RequestMapping(value="/tabla", method=RequestMethod.GET)
+	@RequestMapping(value="/home", method=RequestMethod.GET)
 	//@GetMapping("/tabla") //nivel de metodo
 	public String mostrarTabla(Model model) {
 		List<Vacante> lista = serviceVacante.buscarTodos();
 		model.addAttribute("vacante", lista);
 		
-		return "home/tabla";
+		return "home/home";
 	}
 	
 	
